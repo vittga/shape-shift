@@ -1,0 +1,53 @@
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    margin-left: auto;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.action-buttons {
+    display: flex;
+}
+
+.free-trial-button {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.sign-in-button {
+    background-color: #ece7f0;
+    color: #6a0dad;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.free-trial-button:hover,
+.sign-in-button:hover {
+    background-color: #a986b3;
+    color: #000000;
+}
