@@ -11,6 +11,7 @@ function Hero() {
                     <p>Our goal is straightforward: to spark your enthusiasm for a fitter, more resilient version of yourself.</p>
                     <button>Explore</button>
                     <p>100K people have joined</p>
+                    <p>The best performance for your body</p>
                 </div>
                 <div className="feature-image">
                     <img src="exercise-illustration.png" alt="Exercise Illustration" />
